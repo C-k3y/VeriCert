@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background-color: #ede6d6;
+  }
+
+  body {
+    @apply bg-vellum text-ink antialiased;
+  }
+
+  ::selection {
+    @apply bg-brass/30;
+  }
+
+  :focus-visible {
+    @apply outline-brass outline-2 outline-offset-2;
+  }
+}

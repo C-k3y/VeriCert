@@ -1,0 +1,28 @@
+# logs
+logs
+*.log
+npm-debug.log*
+
+# Node modules
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Typescript
+*.tsbuildinfo
+
+# Editor directories and files
+.vscode/*
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
